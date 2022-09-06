@@ -1,0 +1,80 @@
+module.exports = {
+    "info": {
+        "service_name": "WRS-Backoffice API",
+        "servers": {
+            "email_verify_url": "http://localhost:3000",
+            "socket_server_url": "http://localhost:3001",
+            "web_server_url": "http://localhost:3002",
+            "admin_server_url": "http://localhost:3003"
+        }
+    },
+    "database": {
+        "mysql": {
+            "username": "admin",
+            "password": "lzVxh9wAQukBCGEeyVcy",
+            "database": "backoffice",
+            "host": "web-vs-db-01-instance-1.cssjqv6w4fiw.ap-northeast-2.rds.amazonaws.com",
+            "port": 3306,
+            "dialect": "mysql"
+        },
+        "mongoose": {
+            "host": "",
+            "port": "",
+            "database": "",
+            "username": "",
+            "password": ""
+        },
+        "sequelize": {
+            "resync": {
+                "force": false
+            }
+        }
+    },
+    "password": {
+        "salt": "",
+        "temp_password_valid_days": 3
+    },
+    "jwt": {
+        "auth_token": {
+            "algorithm": "HS256",
+            "token_secret": "1234567890abcdefg",
+            "expires_in": "4 weeks",
+            // "token_storage": "header",
+            "token_storage": "cookie",
+            "token_storage_name": "auth_token"
+        },
+        "refresh_token": {
+            "algorithm": "HS256",
+            "token_secret": "1234567890abcdefg",
+            "expires_in": "4 weeks",
+        },
+    },
+    "crypt_key": {
+        "verify": "email_verify_crypt_key",
+    },
+    "upload": {
+        "file_limit": 5,
+        "size_limit": 5 * 1024 * 1024,
+        "file_types": ['jpg', 'jpeg', 'png'],
+        "paths": [
+            {"profile": "test/profile"},
+            {"quiz_room": "test/quiz/room"},
+        ]
+    },
+    "aws": {
+        "s3": {
+            "url": "https://total-admin.s3.ap-northeast-2.amazonaws.com",
+            "bucket": "total-admin",
+            "defaultDir": "dev/",
+            "secretKey": "AkhlMN4YjfXdeniC8WNOMWWVSMf7baYoUjFAxOjN",
+            "accessKey": "AKIA5HYEFDQ6D43ZXIMS",
+            "region": "ap-northeast-2"
+        }
+    },
+    "slack": {
+        "oAuthToken": "xoxb-1282190274836-3112077446194-Rr8LmgHGRAQRivu3hOSjJpGq",
+        "webhookUrl": "https://hooks.slack.com/services/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",
+        "channel": "#errors",
+        "username": "ERROR_BOT"
+    }
+};

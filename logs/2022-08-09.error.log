@@ -1,0 +1,53 @@
+[31m[2022-08-09 10:29:03.265] [request-id: a6f56200-1782-11ed-9146-499e55cdfaa9] [ERROR] api-server: [39m {
+  "err": "Not Found",
+  "ip": "::1",
+  "userAgent": {
+    "os": "OS X",
+    "platform": "Apple Mac",
+    "browser": "Chrome",
+    "browser_version": "103.0.0.0",
+    "isMobile": false,
+    "isDesktop": true
+  },
+  "uuid": "undefied",
+  "uri": "/favicon.ico",
+  "queryParams": {},
+  "bodyParams": {}
+}
+[31m[2022-08-09 10:29:03.270] [request-id: a6f56200-1782-11ed-9146-499e55cdfaa9] [ERROR] RESPONSE_DATA: [39m error = {"errMsgs":["Not Found"],"errCodes":[]}
+[31m[2022-08-09 15:07:48.034] [request-id: 96b0e280-17a9-11ed-81dc-bd56c7f6037e] [ERROR] api-server: [39m {
+  "err": "Access denied for user 'admin'@'175.126.207.76' (using password: YES)",
+  "ip": "::1",
+  "userAgent": {
+    "os": "OS X",
+    "platform": "Apple Mac",
+    "browser": "Chrome",
+    "browser_version": "103.0.0.0",
+    "isMobile": false,
+    "isDesktop": true
+  },
+  "uuid": "undefied",
+  "uri": "/api/coordinators/resources",
+  "queryParams": {},
+  "bodyParams": {}
+}
+[31m[2022-08-09 15:07:48.040] [request-id: 96b0e280-17a9-11ed-81dc-bd56c7f6037e] [ERROR] RESPONSE_DATA: [39m error = {"errMsgs":["Access denied for user 'admin'@'175.126.207.76' (using password: YES)"],"errCodes":[]}
+[31m[2022-08-09 15:07:49.087] [request-id: 96b0e280-17a9-11ed-81dc-bd56c7f6037e] [ERROR] api-server: [39m [object Object]
+[31m[2022-08-09 15:08:34.379] [request-id: b2d6d910-17a9-11ed-8436-3522923230e7] [ERROR] api-server: [39m {
+  "err": "Unknown database 'backoffice'",
+  "ip": "::1",
+  "userAgent": {
+    "os": "OS X",
+    "platform": "Apple Mac",
+    "browser": "Chrome",
+    "browser_version": "103.0.0.0",
+    "isMobile": false,
+    "isDesktop": true
+  },
+  "uuid": "undefied",
+  "uri": "/api/coordinators/resources",
+  "queryParams": {},
+  "bodyParams": {}
+}
+[31m[2022-08-09 15:08:34.384] [request-id: b2d6d910-17a9-11ed-8436-3522923230e7] [ERROR] RESPONSE_DATA: [39m error = {"errMsgs":["Unknown database 'backoffice'"],"errCodes":[]}
+[31m[2022-08-09 15:08:35.953] [request-id: b2d6d910-17a9-11ed-8436-3522923230e7] [ERROR] api-server: [39m [object Object]

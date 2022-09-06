@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Volumes/Dev/workspace/free/hans/wrs/wrs-backoffice/logs/.3c437109065917e2f83c9ce9daa8824023d4c16e-audit.json",
+    "files": [
+        {
+            "date": 1659150702952,
+            "name": "/Volumes/Dev/workspace/free/hans/wrs/wrs-backoffice/logs/2022-07-30.error.log",
+            "hash": "97c4d6d283f38949110b00ed5712f0b0132113b8e0208bf0607decc2a0c9d835"
+        },
+        {
+            "date": 1660007026057,
+            "name": "/Volumes/Dev/workspace/free/hans/wrs/wrs-backoffice/logs/2022-08-09.error.log",
+            "hash": "c96486edc0a37fd2c65ccc32962dd3b635dd980b05561dcdc6a9c3488339aa99"
+        }
+    ],
+    "hashType": "sha256"
+}

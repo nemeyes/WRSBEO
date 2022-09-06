@@ -1,0 +1,41 @@
+[31m[2022-07-30 12:59:58.358] [request-id: 13cd3fc0-0fbc-11ed-a85d-bf045f046450] [ERROR] WRS: [39m [ALLOCATE_CONTAINER]: tb_containers 의 데이터 저장 실패({"name":"SequelizeValidationError","errors":[{"message":"tb_containers.fk_coordinator_uuid cannot be null","type":"notNull Violation","path":"fk_coordinator_uuid","value":null,"origin":"CORE","instance":{"created_at":{"fn":"current_timestamp","args":[]},"seq":null,"uuid":"string","fk_client_uuid":"string","coordinator_port_num":0,"video_codec":"string","audio_codec":"string","video_width":0,"video_height":0,"released_yn":false},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]})
+[31m[2022-07-30 13:00:52.269] [request-id: 33ffe4f0-0fbc-11ed-9824-23665777a10a] [ERROR] api-server: [39m {
+  "err": "WHERE parameter \"fk_coordinator_uuid\" has invalid \"undefined\" value",
+  "ip": "13.209.142.20",
+  "userAgent": {
+    "os": "OS X",
+    "platform": "Apple Mac",
+    "browser": "Chrome",
+    "browser_version": "103.0.0.0",
+    "isMobile": false,
+    "isDesktop": true
+  },
+  "uuid": "undefied",
+  "uri": "/api/containers",
+  "queryParams": {},
+  "bodyParams": {
+    "container_uuid": "string",
+    "client_uuid": "string"
+  }
+}
+[31m[2022-07-30 13:00:52.274] [request-id: 33ffe4f0-0fbc-11ed-9824-23665777a10a] [ERROR] RESPONSE_DATA: [39m error = {"errMsgs":["WHERE parameter \"fk_coordinator_uuid\" has invalid \"undefined\" value"],"errCodes":[]}
+[31m[2022-07-30 13:02:03.661] [request-id: 5e8b7720-0fbc-11ed-9824-23665777a10a] [ERROR] api-server: [39m {
+  "err": "WHERE parameter \"fk_coordinator_uuid\" has invalid \"undefined\" value",
+  "ip": "13.209.142.20",
+  "userAgent": {
+    "os": "OS X",
+    "platform": "Apple Mac",
+    "browser": "Chrome",
+    "browser_version": "103.0.0.0",
+    "isMobile": false,
+    "isDesktop": true
+  },
+  "uuid": "undefied",
+  "uri": "/api/containers",
+  "queryParams": {},
+  "bodyParams": {
+    "container_uuid": "EFF0A721-C945-41CB-8CD8-5A131B2D7733",
+    "client_uuid": "d9707aa3-5f9e-4abd-9d17-967477dce4b9"
+  }
+}
+[31m[2022-07-30 13:02:03.663] [request-id: 5e8b7720-0fbc-11ed-9824-23665777a10a] [ERROR] RESPONSE_DATA: [39m error = {"errMsgs":["WHERE parameter \"fk_coordinator_uuid\" has invalid \"undefined\" value"],"errCodes":[]}
