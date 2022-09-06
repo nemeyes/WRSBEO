@@ -1,2 +1,0 @@
-# WRSBEO
-WRS Backend Office
